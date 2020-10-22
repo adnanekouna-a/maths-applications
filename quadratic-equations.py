@@ -1,5 +1,7 @@
 from math import sqrt
 
+print("Quadratic Equations' Solver")
+
 
 def quadratic(a, b, c):
     Delta = (b**2) - 4*a*c
