@@ -14,6 +14,7 @@ def divide(x, y):
     return x/y
 
 
+print('Basic Calculator!')
 x = int(input('x = '))
 y = int(input('y = '))
 operation = input('Operation [A, S, M, D] : ')
