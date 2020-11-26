@@ -6,14 +6,17 @@ def factorial(n):
         return n*factorial(n-1)
 
 
-number = int(input('Enter the number : '))
-result = 0
+try:
+    number = int(input('Enter the number : '))
+    result = 0
 
-if number == 0:
-    result = 1
-else:
-    result = factorial(number)
+    if number == 0:
+        result = 1
+    elif number < 0:
+        raise ValueError
+    else:
+        result = factorial(number)
 
-print(f'The factorial of {number} is {result}')
-
-# TODO fix negative numbers
+    print(f'The factorial of {number} is {result}')
+except ValueError:
+    print('You have to enter a positive number!!!')
