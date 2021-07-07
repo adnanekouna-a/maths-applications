@@ -5,7 +5,6 @@ def factorial(n):
         0
         return n*factorial(n-1)
 
-
 try:
     number = int(input('Enter the number : '))
     result = 0
