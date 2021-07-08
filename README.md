@@ -1,8 +1,8 @@
 # Maths Applications in Python 
 
 1. [Introduction:](#introduction)
-2. [Applications/Properties implemented so far:](#applications/properties-implemented-so-far)
-   * [Quadratic Equations' real solutions solver.](#quadratic-equations'-real-solutions-solver)
+2. [Applications/Properties implemented so far:](#applicationsproperties-implemented-so-far)
+   * [Quadratic Equations' real solutions solver.](#quadratic-equations-real-solutions-solver)
    * [Factorial calculator.](#factorial-calculator)
    * [Fibonacci Sequence term calculator.](#fibonacci-sequence-term-calculator)
    * [Prime Numbers checker.](#prime-numbers-checker)
