@@ -1,11 +1,11 @@
 # Maths Applications in Python 
 
-1. [Introduction:](#introduction:)
-2. [Applications/Properties implemented so far:](#applications/properties-implemented-so-far:)
-   * [Quadratic Equations' real solutions solver.](#quadratic-equations'-real-solutions-solver.)
-   * [Factorial calculator.](#factorial-calculator.)
-   * [Fibonacci Sequence term calculator.](#fibonacci-sequence-term-calculator.)
-   * [Prime Numbers checker.](#prime-numbers-checker.)
+1. [Introduction:](#introduction)
+2. [Applications/Properties implemented so far:](#applications/properties-implemented-so-far)
+   * [Quadratic Equations' real solutions solver.](#quadratic-equations'-real-solutions-solver)
+   * [Factorial calculator.](#factorial-calculator)
+   * [Fibonacci Sequence term calculator.](#fibonacci-sequence-term-calculator)
+   * [Prime Numbers checker.](#prime-numbers-checker)
 ***
 
 ## Introduction:
@@ -23,4 +23,4 @@ Calculates the term wanted of the famous Fibonacci Sequence.
 Term Limit = Unknown (Biggest term tried : 30000).
 ### Prime Numbers checker.
 Uses the [Wilson Theorem](https://en.wikipedia.org/wiki/Wilson%27s_theorem) to check if a positive integer is prime or not.
-To calculate the factorial, it depends on the [Factorial Calculator](#factorial-calculator.).
+To calculate the factorial, it depends on the [Factorial Calculator](#factorial-calculator).
