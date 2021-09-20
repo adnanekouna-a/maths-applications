@@ -1,15 +1,14 @@
-print('Which term do you want?')
-
-n1, n2 = 0, 1
-count = 0
-sequence = []
+print('Up to which term do you want?')
 try:
-    term = int(input())
+    term = int(input('> '))
     if term <= 0:
         raise ValueError
-    elif term == 1:
-        print(f'The Fibonacci Sequence up to 1 is [0].')
+    if term == 1:
+        print('The Fibonacci Sequence up to 1 is [0].')
     else:
+        count = 0
+        n1, n2 = 0, 1
+        sequence = []
         while count < term:
             sequence.append(n1)
             n3 = n1 + n2

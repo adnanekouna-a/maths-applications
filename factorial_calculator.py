@@ -1,22 +1,15 @@
-def factorial(n):
-    if n == 1:
+def factorial(num: int) -> int:
+    '''Calculates the factorial'''
+    if num in [0,1]:
         return 1
-    elif n > 1:
-        0
-        return n*factorial(n-1)
+    return num*factorial(num-1)
 
 if __name__ == '__main__':
     try:
         number = int(input('Enter the number : '))
-        result = 0
-
-        if number == 0:
-            result = 1
-        elif number < 0:
+        if number < 0:
             raise ValueError
-        else:
-            result = factorial(number)
-
+        result = factorial(number)
         print(f'The factorial of {number} is {result}')
     except ValueError:
         print('You have to enter a positive number!!!')
